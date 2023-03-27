@@ -17,5 +17,11 @@ public class CalendarioFeriado implements interfaceCalendario{
     }
     return "Este feriado não existe";
   }
+
+  public void todosFeriados() {
+      for(int i = 0; i < feriados.length; i++) {
+        System.out.println(feriados[i].getEvent());
+      }
+  }
   
 }
